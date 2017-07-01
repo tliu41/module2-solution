@@ -1,100 +1,103 @@
-	* {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
-		box-sizing: border-box;
-	}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-	#header-nav {
-		background-color: yellow;
-		border: 0;
-	}
+#header-nav {
+	background-color: white;
+	border: 0;
+	height: 150px;
+}
 
-	#logo-img {
-		background-image: url(http://xahlee.info/UnixResource_dir/gki/150px-X_logo.png);
-		height: 150px;
-		width: 150px;
-		margin: 2px 2px 2px 2px;
-	}
+#logo-img {
+	background-image: url(http://xahlee.info/UnixResource_dir/gki/150px-X_logo.png);
+	height: 150px;
+	width: 150px;
+	margin: 2px 2px 2px 2px;
+}
 
-	#heading {
-		text-align: center;
-		display: block;
-	}
+#heading {
+	text-align: center;
+	display: block;
+	font-size: 3em;
+}
 
-	.navbar-brand h1 {
-		text-transform: uppercase;
-		text-shadow: 1px 1px 1px #222;
-	}
+.navbar-brand h1 {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin: 0px 0px 0px 0px;
+}
 
-	h2 {
-		text-align: right;
-		margin-top: 0px;
-		border: 1px solid black;
+h2 {
+	text-align: right;
+	margin-top: 0px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.food {
+	display: block; text-align: right;
+}
+
+.col-ld-1, .col-ld-2, .col-ld-3, .col-ld-4, .col-ld-5, .col-ld-6, .col-ld-7, .col-ld-8, .col-ld-9, .col-ld-10, .col-ld-11, .col-ld-12 {
+	float: left;
+	border: 1px solid black;
+}
+
+/*Desktop View*/
+@media (min-width: 992px) { 
+
+	.col-ld-1 {width: 8.33%;}
+	.col-ld-2 {width: 16.66%;}
+	.col-ld-3 {width: 25%;}
+	.col-ld-4 {width: 33.33%;}
+	.col-ld-5 {width: 41.66%;}
+	.col-ld-6 {width: 50%;}
+	.col-ld-7 {width: 58.33%;}
+	.col-ld-8 {width: 66.66%;}
+	.col-ld-9 {width: 75%;}
+	.col-ld-10 {width: 83.33%;}
+	.col-ld-11 {width: 91.66%;}
+	.col-ld-12 {width: 100%;}
+
+	div {
 		display: inline-block;
-	}
-
-	.food {
-		display: block; text-align: right;
-	}
-
-	.col-ld-1, .col-ld-2, .col-ld-3, .col-ld-4, .col-ld-5, .col-ld-6, .col-ld-7, .col-ld-8, .col-ld-9, .col-ld-10, .col-ld-11, .col-ld-12 {
-		float: left;
-		border: 1px solid black;
-	}
-
-	/*Desktop View*/
-	@media (min-width: 992px) { 
-
-		.col-ld-1 {width: 8.33%;}
-		.col-ld-2 {width: 16.66%;}
-		.col-ld-3 {width: 25%;}
-		.col-ld-4 {width: 33.33%;}
-		.col-ld-5 {width: 41.66%;}
-		.col-ld-6 {width: 50%;}
-		.col-ld-7 {width: 58.33%;}
-		.col-ld-8 {width: 66.66%;}
-		.col-ld-9 {width: 75%;}
-		.col-ld-10 {width: 83.33%;}
-		.col-ld-11 {width: 91.66%;}
-		.col-ld-12 {width: 100%;}
-
-		div {
-			display: inline-block;
-
-		}
 
 	}
 
-	/*Tablet View*/
-	@media (min-width: 768px) and (max-width: 991px) {
+}
 
-		.col-md-1 {width: 8.33%;}
-		.col-md-2 {width: 16.66%;}
-		.col-md-3 {width: 25%;}
-		.col-md-4 {width: 33.33%;}
-		.col-md-5 {width: 41.66%;}
-		.col-md-6 {width: 50%;}
-		.col-md-7 {width: 58.33%;}
-		.col-md-8 {width: 66.66%;}
-		.col-md-9 {width: 75%;}
-		.col-md-10 {width: 83.33%;}
-		.col-md-11 {width: 91.66%;}
-		.col-md-12 {width: 100%;}
+/*Tablet View*/
+@media (min-width: 768px) and (max-width: 991px) {
 
-	}
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
 
-	@media (max-width: 769px) {
-		.col-sd-1 {width: 8.33%;}
-		.col-sd-2 {width: 16.66%;}
-		.col-sd-3 {width: 25%;}
-		.col-sd-4 {width: 33.33%;}
-		.col-sd-5 {width: 41.66%;}
-		.col-sd-6 {width: 50%;}
-		.col-sd-7 {width: 58.33%;}
-		.col-sd-8 {width: 66.66%;}
-		.col-sd-9 {width: 75%;}
-		.col-sd-10 {width: 83.33%;}
-		.col-sd-11 {width: 91.66%;}
-		.col-sd-12 {width: 100%;}
-	}
+}
+
+@media (max-width: 769px) {
+	.col-sd-1 {width: 8.33%;}
+	.col-sd-2 {width: 16.66%;}
+	.col-sd-3 {width: 25%;}
+	.col-sd-4 {width: 33.33%;}
+	.col-sd-5 {width: 41.66%;}
+	.col-sd-6 {width: 50%;}
+	.col-sd-7 {width: 58.33%;}
+	.col-sd-8 {width: 66.66%;}
+	.col-sd-9 {width: 75%;}
+	.col-sd-10 {width: 83.33%;}
+	.col-sd-11 {width: 91.66%;}
+	.col-sd-12 {width: 100%;}
+}
