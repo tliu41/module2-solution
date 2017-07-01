@@ -5,9 +5,26 @@
 		box-sizing: border-box;
 	}
 
+	#header-nav {
+		background-color: yellow;
+		border: 0;
+	}
+
+	#logo-img {
+		background-image: url(http://xahlee.info/UnixResource_dir/gki/150px-X_logo.png);
+		height: 150px;
+		width: 150px;
+		margin: 2px 2px 2px 2px;
+	}
+
 	#heading {
 		text-align: center;
 		display: block;
+	}
+
+	.navbar-brand h1 {
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #222;
 	}
 
 	h2 {
